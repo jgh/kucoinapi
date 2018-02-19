@@ -479,9 +479,9 @@ Put it into headers
                 "success": true,
                 "code": "OK",
                 "data": [{
-                  coinType: "BTC",
-                  balance: 1233214,  
-                  freezeBalance: 321321 
+                  "coinType": "BTC",
+                  "balance": 1233214,  
+                  "freezeBalance": 321321 
                 }]
             }
 
@@ -819,15 +819,21 @@ Put it into headers
     
 + Response 200 (application/json)
     + Body
-
             {
               "success": true,
               "code": "OK",
               "msg": "Operation succeeded.",
               "data": [
-              {"coinType":"BTC","trading":true,"symbol":"BTC-USDT","lastDealPrice":10401.31,"buy":10401.31,"sell":10517.0,"change":11.089732,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":2364695.29606278,"high":10849.999999,"datetime":1519019062000,"vol":225.78896699,"low":9999.0,"changeRate":0.0011},{"coinType":"ETH","trading":true,"symbol":"ETH-BTC","lastDealPrice":0.08840404,"buy":0.08840404,"sell":0.0884049,"change":0.00080404,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":340.82054362,"high":0.089597,"datetime":1519019062000,"vol":3875.38792,"low":0.086022,"changeRate":0.0092},{"coinType":"ETH","trading":true,"symbol":"ETH-USDT","lastDealPrice":923.0,"buy":917.0001,"sell":924.7305,"change":6.761531,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":1170121.19384971,"high":947.777777,"datetime":1519019062000,"vol":1267.582835,"low":892.137139,"changeRate":0.0074},{"coinType":"BCH","trading":true,"symbol":"BCH-USDT","lastDealPrice":1467.889034,"buy":1454.833493,"sell":1509.6666,"change":80.988951,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":19260.67975111,"high":1550.0,"datetime":1519019062000,"vol":13.17580238,"low":1320.000095,"changeRate":0.0584},{"coinType":"GAS","trading":true,"symbol":"GAS-NEO","lastDealPrice":0.359998,"buy":0.356201,"sell":0.359998,"change":-0.000113,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":1770.0859315,"high":0.389899,"datetime":1519019062000,"vol":4778.1015,"low":0.347992,"changeRate":-0.00030},{"coinType":"NEO","trading":true,"symbol":"NEO-KCS","lastDealPrice":23.62,"buy":23.62,"sell":23.7448,"change":0.62,"coinTypePair":"KCS","sort":0,"feeRate":0.001,"volValue":18606.19757667,"high":23.7497,"datetime":1519019062000,"vol":799.189727,"low":22.1627,"changeRate":0.027},{"coinType":"NEO","trading":true,"symbol":"NEO-USDT","lastDealPrice":127.38452,"buy":127.252146,"sell":128.785944,"change":2.932688,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":429800.04814816,"high":130.49,"datetime":1519019062000,"vol":3409.765282,"low":120.57213,"changeRate":0.0236},{"coinType":"NEO","trading":true,"symbol":"NEO-BTC","lastDealPrice":0.01215046,"buy":0.01215058,"sell":0.01222964,"change":0.00013046,"coinTypePair":"BTC","sort":9,"feeRate":0.001,"volValue":152.29806675,"high":0.01232018,"datetime":1519019062000,"vol":12649.140942,"low":0.01180115,"changeRate":0.0109},{"coinType":"NEO","trading":true,"symbol":"NEO-ETH","lastDealPrice":0.138539,"buy":0.137647,"sell":0.13854,"change":0.000747,"coinTypePair":"ETH","sort":9,"feeRate":0.001,"volValue":1051.11497752,"high":0.140395,"datetime":1519019062000,"vol":7682.226975,"low":0.135,"changeRate":0.0054},{"coinType":"OCN","trading":true,"symbol":"OCN-BTC","lastDealPrice":0.00000195,"buy":0.00000195,"sell":0.0000020,"change":5.0E-8,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":37.68110926,"high":0.00000206,"datetime":1519019062000,"vol":19630823.59,"low":0.00000185,"changeRate":0.0263},{"coinType":"OCN","trading":true,"symbol":"OCN-ETH","lastDealPrice":0.000023,"buy":0.000022,"sell":0.000023,"change":0.0000010,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":502.3784832,"high":0.000024,"datetime":1519019062000,"vol":22640719.86,"low":0.000020,"changeRate":0.0455},{"coinType":"OCN","trading":true,"symbol":"OCN-USDT","lastDealPrice":0.021655,"buy":0.02041,"sell":0.021657,"change":0.001056,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":25142.99003543,"high":0.022091,"datetime":1519019062000,"vol":1243927.96,"low":0.018701,"changeRate":0.0513},{"coinType":"FOTA","trading":true,"symbol":"FOTA-BCH","lastDealPrice":0.00007499,"buy":0.00006053,"sell":0.00007399,"change":-0.00000334,"coinTypePair":"BCH","sort":0,"feeRate":0.001,"volValue":0.59696361,"high":0.00007834,"datetime":1519019062000,"vol":7682.8413,"low":0.000073,"changeRate":-0.0426},{"coinType":"FOTA","trading":true,"symbol":"FOTA-BTC","lastDealPrice":0.00001024,"buy":0.00001016,"sell":0.00001024,"change":1.0E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":126.34678695,"high":0.00001103,"datetime":1519019062000,"vol":11947151.9524,"low":0.000010,"changeRate":0.0099},{"coinType":"FOTA","trading":true,"symbol":"FOTA-ETH","lastDealPrice":0.000115,"buy":0.000115,"sell":0.000117,"change":-0.0000010,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":124.32941604,"high":0.000124,"datetime":1519019062000,"vol":1060177.4991,"low":0.00011,"changeRate":-0.0086},{"coinType":"FOTA","trading":true,"symbol":"FOTA-NEO","lastDealPrice":0.000831,"buy":0.000831,"sell":0.000874,"change":-0.000018,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":110.33827191,"high":0.000927,"datetime":1519019062000,"vol":125146.7128,"low":0.000769,"changeRate":-0.0212},{"coinType":"FOTA","trading":true,"symbol":"FOTA-USDT","lastDealPrice":0.109091,"buy":0.102815,"sell":0.108286,"change":0.00236,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":16363.97085534,"high":0.114669,"datetime":1519019062000,"vol":151464.6493,"low":0.102501,"changeRate":0.0221},{"coinType":"ACAT","trading":true,"symbol":"ACAT-BTC","lastDealPrice":0.00000159,"buy":0.00000159,"sell":0.0000016,"change":3.0E-8,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":5.13089932,"high":0.0000017,"datetime":1519019062000,"vol":3239390.3433,"low":0.00000145,"changeRate":0.0192},{"coinType":"ACAT","trading":true,"symbol":"ACAT-ETH","lastDealPrice":0.000019,"buy":0.000018,"sell":0.000019,"change":0.0000020,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":161.83311342,"high":0.000019,"datetime":1519019062000,"vol":9028026.2122,"low":0.000017,"changeRate":0.1176},{"coinType":"ACAT","trading":true,"symbol":"ACAT-NEO","lastDealPrice":0.000132,"buy":0.000131,"sell":0.000132,"change":0.0000020,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":298.27595202,"high":0.000141,"datetime":1519019062000,"vol":2265409.0121,"low":0.000127,"changeRate":0.0154},{"coinType":"COV","trading":true,"symbol":"COV-BTC","lastDealPrice":0.00009746,"buy":0.00009746,"sell":0.00009845,"change":-0.0000017,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":6.89772022,"high":0.00010389,"datetime":1519019062000,"vol":71507.825,"low":0.00008784,"changeRate":-0.0171},{"coinType":"COV","trading":true,"symbol":"COV-ETH","lastDealPrice":0.001107,"buy":0.001106,"sell":0.001107,"change":-0.000028,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":59.55831226,"high":0.00118,"datetime":1519019062000,"vol":54682.9877,"low":0.001021,"changeRate":-0.0247},{"coinType":"MEE","trading":true,"symbol":"MEE-BTC","lastDealPrice":0.00000927,"buy":0.0000092,"sell":0.00000929,"change":3.0E-8,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":235.07124602,"high":0.00000989,"datetime":1519019060000,"vol":25614372.6338,"low":0.00000877,"changeRate":0.0032},{"coinType":"MEE","trading":true,"symbol":"MEE-ETH","lastDealPrice":0.000105,"buy":0.000103,"sell":0.000106,"change":-0.0000040,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":753.80298648,"high":0.000113,"datetime":1519019062000,"vol":7210499.2806,"low":0.00010,"changeRate":-0.0367},{"coinType":"ZPT","trading":true,"symbol":"ZPT-BTC","lastDealPrice":0.0000133,"buy":0.00001308,"sell":0.0000133,"change":0.0,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":27.55418599,"high":0.00001399,"datetime":1519019062000,"vol":2089258.2599,"low":0.0000122,"changeRate":0.0},{"coinType":"ZPT","trading":true,"symbol":"ZPT-ETH","lastDealPrice":0.000151,"buy":0.00015,"sell":0.000151,"change":0.0,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":888.11883008,"high":0.000157,"datetime":1519019062000,"vol":6166326.9513,"low":0.00014,"changeRate":0.0},{"coinType":"ZPT","trading":true,"symbol":"ZPT-NEO","lastDealPrice":0.001074,"buy":0.001074,"sell":0.001095,"change":-0.000014,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":299.52599674,"high":0.001148,"datetime":1519019062000,"vol":272402.0977,"low":0.00102,"changeRate":-0.0129},{"coinType":"BPT","trading":true,"symbol":"BPT-BTC","lastDealPrice":0.00005698,"buy":0.00005688,"sell":0.00005698,"change":0.00000402,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":71.12934372,"high":0.00005854,"datetime":1519019062000,"vol":1330557.4614,"low":0.0000445,"changeRate":0.0759},{"coinType":"BPT","trading":true,"symbol":"BPT-ETH","lastDealPrice":0.000648,"buy":0.000633,"sell":0.000648,"change":0.000058,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":1215.81516804,"high":0.000663,"datetime":1519019062000,"vol":2006128.0198,"low":0.000501,"changeRate":0.0983},{"coinType":"CAPP","trading":true,"symbol":"CAPP-BTC","lastDealPrice":0.000013,"buy":0.00001202,"sell":0.000013,"change":-7.9E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":7.99591938,"high":0.00001507,"datetime":1519019062000,"vol":601968.4982,"low":0.0000118,"changeRate":-0.0573},{"coinType":"CAPP","trading":true,"symbol":"CAPP-ETH","lastDealPrice":0.000144,"buy":0.000137,"sell":0.000144,"change":-0.000014,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":43.06970647,"high":0.000171,"datetime":1519019062000,"vol":282092.0339,"low":0.00013,"changeRate":-0.0886},{"coinType":"LOCI","trading":true,"symbol":"LOCI-BTC","lastDealPrice":0.00004149,"buy":0.00004149,"sell":0.00004195,"change":0.00000139,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":8.7895534,"high":0.00004816,"datetime":1519019062000,"vol":211025.5733,"low":0.0000389,"changeRate":0.0347},{"coinType":"LOCI","trading":true,"symbol":"LOCI-ETH","lastDealPrice":0.000474,"buy":0.000452,"sell":0.000475,"change":0.000022,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":82.07698036,"high":0.000549,"datetime":1519019062000,"vol":169642.4285,"low":0.000445,"changeRate":0.0487},{"coinType":"MWAT","trading":true,"symbol":"MWAT-BTC","lastDealPrice":0.0000055,"buy":0.00000548,"sell":0.0000055,"change":-3.9E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":4.23406131,"high":0.0000059,"datetime":1519019062000,"vol":751282.4474,"low":0.00000513,"changeRate":-0.0662},{"coinType":"MWAT","trading":true,"symbol":"MWAT-ETH","lastDealPrice":0.000063,"buy":0.000062,"sell":0.000063,"change":-0.0000010,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":281.21368661,"high":0.000066,"datetime":1519019062000,"vol":4419037.9708,"low":0.000060,"changeRate":-0.0156},{"coinType":"POLY","trading":true,"symbol":"POLY-BTC","lastDealPrice":0.00012855,"buy":0.00012892,"sell":0.00012992,"change":-0.00000525,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":239.70070624,"high":0.000134,"datetime":1519019062000,"vol":1989468.6088,"low":0.0001005,"changeRate":-0.0392},{"coinType":"POLY","trading":true,"symbol":"POLY-ETH","lastDealPrice":0.001489,"buy":0.00145,"sell":0.001489,"change":-0.000031,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":3749.11154636,"high":0.00153,"datetime":1519019062000,"vol":2720355.8804,"low":0.0011,"changeRate":-0.0204},{"coinType":"SPF","trading":true,"symbol":"SPF-BTC","lastDealPrice":0.00002709,"buy":0.00002527,"sell":0.00002709,"change":1.6E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":0.48073049,"high":0.00002716,"datetime":1519019062000,"vol":18483.8081,"low":0.00002351,"changeRate":0.0059},{"coinType":"SPF","trading":true,"symbol":"SPF-ETH","lastDealPrice":0.000307,"buy":0.000289,"sell":0.000307,"change":0.000016,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":4.08813311,"high":0.000309,"datetime":1519019062000,"vol":13499.3183,"low":0.000278,"changeRate":0.055},{"coinType":"TKY","trading":true,"symbol":"TKY-BTC","lastDealPrice":0.00000309,"buy":0.00000309,"sell":0.00000311,"change":-6.0E-8,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":54.18534767,"high":0.00000336,"datetime":1519019062000,"vol":17077310.4834,"low":0.00000301,"changeRate":-0.019},{"coinType":"TKY","trading":true,"symbol":"TKY-ETH","lastDealPrice":0.000034,"buy":0.000034,"sell":0.000035,"change":-0.0000030,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":1195.55184106,"high":0.000039,"datetime":1519019062000,"vol":33673353.8462,"low":0.000031,"changeRate":-0.0811},{"coinType":"TKY","trading":true,"symbol":"TKY-NEO","lastDealPrice":0.000247,"buy":0.000247,"sell":0.000256,"change":-0.000016,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":689.42460276,"high":0.000276,"datetime":1519019062000,"vol":2635960.4804,"low":0.000245,"changeRate":-0.0608},{"coinType":"TNC","trading":true,"symbol":"TNC-BTC","lastDealPrice":0.00001993,"buy":0.00001993,"sell":0.00002012,"change":-9.7E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":22.96897279,"high":0.000022,"datetime":1519019062000,"vol":1148303.2356,"low":0.000019,"changeRate":-0.0464},{"coinType":"TNC","trading":true,"symbol":"TNC-ETH","lastDealPrice":0.000223,"buy":0.000224,"sell":0.000227,"change":-0.0000060,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":268.08993027,"high":0.000234,"datetime":1519019062000,"vol":1191185.7578,"low":0.00021,"changeRate":-0.0262},{"coinType":"TNC","trading":true,"symbol":"TNC-NEO","lastDealPrice":0.001601,"buy":0.001627,"sell":0.001685,"change":-0.000048,"coinTypePair":"NEO","sort":0,"feeRate":0.001,"volValue":411.69760179,"high":0.001733,"datetime":1519019062000,"vol":252786.4501,"low":0.001561,"changeRate":-0.0291},{"coinType":"TNC","trading":true,"symbol":"TNC-USDT","lastDealPrice":0.206472,"buy":0.203418,"sell":0.206472,"change":-0.004001,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":38316.67648873,"high":0.221,"datetime":1519019062000,"vol":184533.4311,"low":0.2,"changeRate":-0.019},{"coinType":"XRB","trading":true,"symbol":"XRB-BTC","lastDealPrice":0.00084076,"buy":0.00084069,"sell":0.00084076,"change":0.00001276,"coinTypePair":"BTC","sort":0,"feeRate":0.001,"volValue":95.76145067,"high":0.000873,"datetime":1519019062000,"vol":114269.14229,"low":0.00082203,"changeRate":0.0154},{"coinType":"XRB","trading":true,"symbol":"XRB-ETH","lastDealPrice":0.009452,"buy":0.009447,"sell":0.009506,"change":0.000019,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":307.76293919,"high":0.0099,"datetime":1519019062000,"vol":32147.636021,"low":0.009322,"changeRate":0.002},{"coinType":"XRB","trading":true,"symbol":"XRB-USDT","lastDealPrice":8.600026,"buy":8.660034,"sell":8.899952,"change":0.000026,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":253513.2881082,"high":9.379949,"datetime":1519019062000,"vol":29091.586683,"low":8.51,"changeRate":0.0},{"coinType":"AXP","trading":true,"symbol":"AXP-BTC","lastDealPrice":0.00000816,"buy":0.00000789,"sell":0.00000816,"change":7.9E-7,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":8.94591942,"high":0.00000816,"datetime":1519019062000,"vol":1237676.479,"low":0.00000553,"changeRate":0.1072},{"coinType":"AXP","trading":true,"symbol":"AXP-ETH","lastDealPrice":0.000090,"buy":0.000089,"sell":0.000090,"change":0.0000050,"coinTypePair":"ETH","sort":0,"feeRate":0.001,"volValue":926.87478619,"high":0.000095,"datetime":1519019062000,"vol":11106943.9757,"low":0.000061,"changeRate":0.0588}
-             ]
+                    {"coinType":"BTC","trading":true,"symbol":"BTC-USDT","lastDealPrice":10401.31,"buy":10401.31,"sell":10517.0,"change":11.089732,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":2364695.29606278,"high":10849.999999,"datetime":1519019062000,"vol":225.78896699,"low":9999.0,"changeRate":0.0011},
+                    {"coinType":"ETH","trading":true,"symbol":"ETH-BTC","lastDealPrice":0.08840404,"buy":0.08840404,"sell":0.0884049,"change":0.00080404,"coinTypePair":"BTC","sort":100,"feeRate":0.001,"volValue":340.82054362,"high":0.089597,"datetime":1519019062000,"vol":3875.38792,"low":0.086022,"changeRate":0.0092},
+                    {"coinType":"ETH","trading":true,"symbol":"ETH-USDT","lastDealPrice":923.0,"buy":917.0001,"sell":924.7305,"change":6.761531,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":1170121.19384971,"high":947.777777,"datetime":1519019062000,"vol":1267.582835,"low":892.137139,"changeRate":0.0074},
+                    {"coinType":"BCH","trading":true,"symbol":"BCH-USDT","lastDealPrice":1467.889034,"buy":1454.833493,"sell":1509.6666,"change":80.988951,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":19260.67975111,"high":1550.0,"datetime":1519019062000,"vol":13.17580238,"low":1320.000095,"changeRate":0.0584},
+                    {"coinType":"NEO","trading":true,"symbol":"NEO-KCS","lastDealPrice":23.62,"buy":23.62,"sell":23.7448,"change":0.62,"coinTypePair":"KCS","sort":0,"feeRate":0.001,"volValue":18606.19757667,"high":23.7497,"datetime":1519019062000,"vol":799.189727,"low":22.1627,"changeRate":0.027},
+                    {"coinType":"NEO","trading":true,"symbol":"NEO-USDT","lastDealPrice":127.38452,"buy":127.252146,"sell":128.785944,"change":2.932688,"coinTypePair":"USDT","sort":100,"feeRate":0.001,"volValue":429800.04814816,"high":130.49,"datetime":1519019062000,"vol":3409.765282,"low":120.57213,"changeRate":0.0236},
+                    {"coinType":"NEO","trading":true,"symbol":"NEO-BTC","lastDealPrice":0.01215046,"buy":0.01215058,"sell":0.01222964,"change":0.00013046,"coinTypePair":"BTC","sort":9,"feeRate":0.001,"volValue":152.29806675,"high":0.01232018,"datetime":1519019062000,"vol":12649.140942,"low":0.01180115,"changeRate":0.0109},
+                    {"coinType":"NEO","trading":true,"symbol":"NEO-ETH","lastDealPrice":0.138539,"buy":0.137647,"sell":0.13854,"change":0.000747,"coinTypePair":"ETH","sort":9,"feeRate":0.001,"volValue":1051.11497752,"high":0.140395,"datetime":1519019062000,"vol":7682.226975,"low":0.135,"changeRate":0.0054},
             }
+
 
 ### Order books(Open) [GET /v1/open/orders{?symbol}]
 
@@ -838,8 +844,16 @@ Put it into headers
 
 + Response 200 (application/json)
     + Body
+        {
+          "success": true,
 
-c    
+          "code": "OK",
+
+          "msg": "Operation succeeded.",
+
+          "timestamp": 1519019073177,
+          "data": {"SELL":[[0.001571,1804.152306,2.83432327],[0.001626,454.429975,0.73890314],[0.001627,192.315988,0.31289811],[0.00163,1524.24752,2.48452346],[0.001653,1514.109293,2.50282266],[0.001655,114.831619,0.19004633]],"BUY":[[0.00157,152.667126,0.23968739],[0.001569,1047.28481,1.64318987],[0.001512,497.144736,0.75168284],[0.001501,463.417761,0.69559006],[0.001492,317.156279,0.47319717],[0.0014,302.679342,0.42375108]]}
+         } 
  
 ### Buy Order Books(Open) [GET /v1/open/orders-buy{?symbol}]
 
@@ -891,28 +905,112 @@ c
 + Response 200 (application/json)
     + Body
 
-            {
-              "_comment": "arr[0]   Timestamp arr[1]   Order Type arr[2]   Price arr[3]   Amount arr[4]   Volume",
-              "success": true,
-              "code": "OK",
-              "msg": "Operation succeeded.",
-              "data": [
-                [
-                  1506037604000,
-                  "SELL",
-                  5210,
-                  48600633397,
-                  2532093
-                ],
-                [
-                  1506037604000,
-                  "SELL",
-                  5800,
-                  10227827586,
-                  593214
-                ]
-              ]
-            }
+{
+
+  "success": true,
+
+  "code": "OK",
+
+  "msg": "Operation succeeded.",
+
+  "timestamp": 1519020078270,
+  "data": [
+
+    [
+
+      1519014013000,
+
+      "SELL",
+
+      0.001512,
+
+      51.551823,
+
+      0.07794636
+
+    ],
+
+    [
+
+      1519016844000,
+
+      "BUY",
+
+      0.001538,
+
+      4.168769,
+
+      0.00641157
+
+    ],
+
+    [
+      1519016847000,
+      "BUY",
+      0.001538,
+      3.919,
+      0.00602742
+    ],
+
+    [
+      1519016864000,
+      "BUY",
+      0.001538,
+      0.000004,
+      1e-8
+    ],
+
+    [
+      1519016864000,
+      "BUY",
+      0.001566,
+      3.440358,
+      0.0053876
+    ],
+
+    [
+      1519019715000,
+      "BUY",
+      0.001569,
+      18,
+      0.028242
+    ],
+
+    [
+      1519020062000,
+      "SELL",
+      0.001569,
+      2.817235,
+      0.00442024
+    ],
+
+    [
+      1519020074000,
+      "BUY",
+      0.00157,
+      502.84051,
+      0.7894596
+    ],
+
+    [
+      1519020075000,
+      "BUY",
+      0.001571,
+      755.194482,
+      1.18641053
+    ],
+
+    [
+      1519020075000,
+      "BUY",
+      0.001571,
+      4.162481,
+      0.00653926
+    ]
+
+  ]
+
+}
 
 ### List trading markets(Open) [GET /v1/open/markets]
 
